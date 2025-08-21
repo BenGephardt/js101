@@ -1,0 +1,8 @@
+// What will the following code output?
+console.log([1, 2, 3] + [4, 5]);
+
+/*
+** The output will be "1,2,34,5".
+** This is because the + operator first converts them to strings.
+** After conversion, the two strings are concatenated.
+*/
